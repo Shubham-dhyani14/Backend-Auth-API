@@ -1,0 +1,17 @@
+{
+  "name": "2023-12-coursehub",
+  "version": "1.0.0",
+  "description": "A website to list courses by fetching courses from mongodb. Users can register and enroll into course",
+  "main": "server.js",
+  "scripts": {
+    "start" : "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Dhyani",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
